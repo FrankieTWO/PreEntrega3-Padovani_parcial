@@ -103,7 +103,7 @@ a:link, a:visited {
     margin-left: 50px;
 }
 .formulario-contacto {
-    margin: 15% 2%;
+    margin: 5% 2%;
     padding: 5%;
     background-color: grey;
 }
@@ -184,6 +184,10 @@ button:hover {
         flex-direction: row;
         justify-content: center;
         justify-content: space-around;}
+
+    .texto-contacto{
+        margin: auto;
+    }
 
     .pie 
     {margin: auto;
