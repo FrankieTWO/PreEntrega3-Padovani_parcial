@@ -1,0 +1,29 @@
+.pie-pagina {
+    width: 100%;
+    background-color: #ced4da;
+    margin-top: 20px;
+    display: flex;
+    overflow-x: hidden;
+    border: solid 1px;
+    box-shadow: 0 0 20px #495057;
+}    
+.pie-pagina .grupo1 {
+    width: 100%;
+    max-width: 1700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px 0px;
+}
+.box {
+    position: center
+
+}
+
+@media screen and (max-width: 776px){
+.pie-pagina .grupo1 {
+    display: block;
+    align-items: center;
+}
+}

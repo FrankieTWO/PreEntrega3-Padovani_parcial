@@ -1,0 +1,51 @@
+ 
+
+ .principal {
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     background-image: 
+     linear-gradient(
+      0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+     )
+     ,url(../images/fondo-index1.jpg);
+      ;
+     background-size: cover;
+     height: 90vh;
+     
+     }
+h2 {
+      color: white;
+     }
+h5 {
+   text-align: center;
+}     
+   .texto-portada {
+      color: white;
+   }
+
+.container {
+   padding: 3%;
+   background-color: linear-gradient(rgb(241, 243, 247), rgb(182, 182, 178)) ;
+}   
+
+
+.card-group {
+   padding: 3%;
+   width: auto;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
