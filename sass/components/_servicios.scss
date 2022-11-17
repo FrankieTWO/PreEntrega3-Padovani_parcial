@@ -1,0 +1,46 @@
+desayuno {
+    padding: 2%;
+    margin-left: 20%;
+    margin-right: 20%;}
+ 
+.foto-serv {
+    width: 100%;
+    height: 100%;
+    margin: auto
+}
+
+@media  only screen and (min-width: 600px) {    
+       
+    .foto-serv{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+.desayuno {
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    }
+
+    .one { 
+    border: 2px solid black;
+    
+
+}
+.two {
+    border: 2px solid black;
+    
+
+}
+.three {
+    border: 2px solid black;
+
+}    
+.four {
+    border: 2px solid black;
+
+}    
+
+  
+}
